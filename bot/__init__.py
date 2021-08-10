@@ -76,7 +76,7 @@ DEFAULT_START_TEXT = (
     "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
 )
 # /start message when other users start your bot
-START_OTHER_USERS_TEXT = int(get_config("START_OTHER_USERS_TEXT", 0))    
+START_OTHER_USERS_TEXT = get_config("START_OTHER_USERS_TEXT", 0)    
 # check online status of your bot
 ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
