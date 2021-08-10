@@ -66,7 +66,7 @@ BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 DEFAULT_START_TEXT = (
     "Hey there.. i am personal assistant of @R2K_VENOM\n\n"
     "You can contact him through me..\n\n"
-    "Drop your message below and i will forward it to him"
+    "Drop your message below and i will forward it to my master"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config("START_OTHER_USERS_TEXT", 0))    
