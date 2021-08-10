@@ -78,7 +78,7 @@ DEFAULT_START_TEXT = (
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config(
     "START_OTHER_USERS_TEXT",
-    0
+    "0"
 ))
 # check online status of your bot
 ONLINE_CHECK_START_TEXT = get_config(
