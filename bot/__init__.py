@@ -64,9 +64,9 @@ START_COMMAND = get_config("START_COMMAND", "start")
 BROADCAST_COMMAND = get_config("BROADCAST_COMMAND", "broadcast")
 # default message in-case of None types
 DEFAULT_START_TEXT = (
-    "**Hey there.. i am personal assistant of** `@R2K_VENOM`\n\n"
-    "**You can contact him through me..**\n\n"
-    "**Drop your message below and i will forward it to him**"
+    "Hey there.. i am personal assistant of** @R2K_VENOM\n\n"
+    "You can contact him through me..\n\n"
+    "Drop your message below and i will forward it to him"
 )
 # /start message when other users start your bot
 START_OTHER_USERS_TEXT = int(get_config("START_OTHER_USERS_TEXT", 0))    
@@ -77,9 +77,7 @@ ONLINE_CHECK_START_TEXT = get_config(
     "ONLINE_CHECK_START_TEXT",
     (
         "i am online <b>master</b>\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        
     )
 )
 # message to indicate,
@@ -89,9 +87,7 @@ DELETED_MESSAGES_NOTIFICATION_TEXT = get_config(
     "DELETED_MESSAGES_NOTIFICATION_TEXT",
     (
         "this message was deleted\n\n"
-        "This is an Open Source Project available on "
-        "https://github.com/SpEcHiDe/NoPMsBot\n\n\n"
-        "ℹ️ Subscribe @SpEcHlDe if you 😍 using this bot❗️❣️"
+        
     )
 )
 # IDEKWBYRW
